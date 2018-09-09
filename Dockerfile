@@ -4,7 +4,7 @@ ADD ./environment.yml .
 
 RUN dnf update -y && dnf install -y \
     blas-devel boost-python3 \
-    gcc gcc-c++ kernel-devel gcc-gfortran libgfortran qt5-qttools-devel \
+    gcc gcc-c++ kernel-devel gcc-gfortran libgfortran qt5-qttools-devel qt5-qtbase-devel \
     make automake cmake git curl bzip2 tar redis libpqxx-devel boost-devel \
     yaml-cpp-devel lapack-devel \
     java-1.8.0-openjdk \
