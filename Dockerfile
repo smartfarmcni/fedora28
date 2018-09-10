@@ -8,6 +8,7 @@ RUN dnf update -y && dnf install -y \
     make automake cmake git curl bzip2 tar redis libpqxx-devel boost-devel \
     yaml-cpp-devel lapack-devel \
     java-1.8.0-openjdk \
+    python3-psycopg2 python3-redis python3-ruamel-yaml python3-psutil \
     socat \
     && dnf install -y https://download.postgresql.org/pub/repos/yum/9.6/fedora/fedora-28-x86_64/pgdg-fedora96-9.6-4.noarch.rpm \
     && dnf install -y postgresql96 \
